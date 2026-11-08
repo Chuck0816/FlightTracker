@@ -1,0 +1,44 @@
+# Local environment and credentials (only sanitized examples may be committed)
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials*.json
+service-account*.json
+*service-account*.json
+secrets.*
+
+# Dependencies, build output, caches, and logs
+node_modules/
+.next/
+.pnpm-store/
+.vercel/
+coverage/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+*.log
+
+# Local tools and OS files
+.DS_Store
+Thumbs.db
+.claude/
+.agents/
+.idea/
+.vscode/
+*.textClipping
+*.bak
+*.backup
+
+# Local bulk aviation data and account data; never publish account exports
+/Database Chunked 3/1*_data_flightrecords*.sql
+/Database Chunked 3/2*_data_flightdelaycause*.sql
+/Database Chunked 3/*_data_users.sql
+/Database Chunked 3/*_data_savedroutes.sql
+
+# Contains database account / network details
+/doc/assets/data_loading_p05_img01.png
