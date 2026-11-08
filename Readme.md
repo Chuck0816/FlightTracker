@@ -2,7 +2,7 @@
 
 A database-driven web application for exploring historical U.S. domestic flight routes. Compare route reliability, airline performance, delay causes, cancellation rates, and airfare trends before planning a trip.
 
-Developed by **The Foreign Key Club** for CS 411 Database Systems.
+Developed by **The Foreign Key Club**.
 
 ## Features
 
@@ -60,4 +60,4 @@ This public repository excludes local environment files, credentials, account an
 
 ## Team
 
-Chuck Wang, Po Lin, Albert Lee, and Vismayak Mohanarajan — The Foreign Key Club (Team 014).
+Chuck Wang, Po Lin, Albert Lee, and Vismayak Mohanarajan — The Foreign Key Club.
